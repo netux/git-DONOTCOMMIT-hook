@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -ex
+
+./.git/hooks/_find_DONOTCOMMIT.py

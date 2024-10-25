@@ -1,0 +1,16 @@
+{
+	"region DONOTCOMMIT": {
+		"prefix": "donotcommit",
+		"body": [
+			"$BLOCK_COMMENT_START #region DONOTCOMMIT$0 $BLOCK_COMMENT_END",
+			"${TM_SELECTED_TEXT}",
+			"$BLOCK_COMMENT_START #endregion DONOTCOMMIT $BLOCK_COMMENT_END"
+		]
+	},
+	"inline DONOTCOMMIT": {
+		"prefix": "mark DONOTCOMMIT",
+		"body": [
+			"mark DONOTCOMMIT: $0"
+		]
+	}
+}
